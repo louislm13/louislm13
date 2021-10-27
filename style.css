@@ -1,0 +1,102 @@
+body{
+	background-color: white;
+	font-family: arial;
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+div p a{
+	color: #03224c;
+	text-decoration: none;
+}
+
+.image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#background{
+	height: 200px;
+	background-color: #03224c;
+}
+
+#presentation{
+	margin-top: -200px;
+}
+
+.title1{
+	margin-top: -50px;
+	text-align: center;
+}
+
+.title2{
+	margin-top: -30px;
+	text-align: center;
+	font-weight: lighter;
+	color: grey;
+}
+
+
+hr{
+	width: 400px;
+	background-color: #03224c;
+	height: 1px;
+}
+
+.text1{
+	text-align: center;
+}
+
+.title3 {
+	text-align: center;
+	color: #03224c;
+}
+
+#footer{
+	background-color: #03224c;
+	height: 150px;
+}
+
+.title4 {
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+li {
+	text-align: center;
+	list-style-type: none;
+}
+
+div ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
